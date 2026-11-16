@@ -19,10 +19,7 @@ android {
 
     sourceSets {
         getByName("main") {
-            java.setSrcDirs(
-                listOf("src/main/app/src/main/java")
-            )
-            java.include("com/alsalama/custody/MainActivity.kt")
+            java.srcDir("src/main/app/src/main/java")
         }
     }
 
