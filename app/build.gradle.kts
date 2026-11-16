@@ -20,7 +20,7 @@ android {
     sourceSets {
         getByName("main") {
             java.srcDir("src/main/app/src/main/java")
-            java.exclude("**/.github/**")
+            java.filter.exclude("**/.github/**")
         }
     }
 
